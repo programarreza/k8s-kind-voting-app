@@ -56,7 +56,7 @@ jobs:
 
       image-names: |
         ghcr.io/programarreza/vote-frontend
-        programarreza/vote-frontend:latest
+        programarreza/vote-frontend
       
       ### REQUIRED set rules for tagging images, based on special action syntax:
       ### https://github.com/docker/metadata-action#tags-input

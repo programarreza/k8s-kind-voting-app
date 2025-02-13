@@ -50,9 +50,13 @@ jobs:
       ### REQUIRED 
       ### A list of the account/repo names for docker build. List should match what's enabled above
       ### defaults to:
+      # image-names: |
+      #   ghcr.io/dockersamples/example-voting-app-worker
+      #   dockersamples/examplevotingapp_worker
+
       image-names: |
-        ghcr.io/dockersamples/example-voting-app-worker
-        dockersamples/examplevotingapp_worker
+        ghcr.io/programarreza/vote-worker
+        programarreza/vote-worker:latest
       
       ### REQUIRED set rules for tagging images, based on special action syntax:
       ### https://github.com/docker/metadata-action#tags-input

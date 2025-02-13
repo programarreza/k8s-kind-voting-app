@@ -25,10 +25,10 @@ jobs:
 
     uses: dockersamples/.github/.github/workflows/reusable-docker-build.yaml@main
 
-    permissions:
-      contents: read
-      packages: write # needed to push docker image to ghcr.io
-      pull-requests: write # needed to create and update comments in PRs
+    # permissions:
+    #   contents: read
+    #   packages: write # needed to push docker image to ghcr.io
+    #   pull-requests: write # needed to create and update comments in PRs
     
     secrets:
 

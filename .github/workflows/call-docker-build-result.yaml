@@ -53,7 +53,7 @@ jobs:
       #   dockersamples/examplevotingapp_result
 
       image-names: |
-        ghcr.io/programarreza/vote-result
+        ghcr.io/dockersamples/example-voting-app-result
         programarreza/vote-result
 
       ### REQUIRED set rules for tagging images, based on special action syntax:
